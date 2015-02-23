@@ -14,7 +14,7 @@
 
 		<!-- build:css styles/main.css -->
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		<link href='http://fonts.googleapis.com/css?family=Roboto:500,900,300,700,300italic,400' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,400italic|Pacifico|Open+Sans+Condensed:300,700,300italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="styles/main.css">
 		<!-- endbuild -->
 
@@ -27,14 +27,18 @@
 			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
 
+		<div id="fixed-arrow">
+			<i class="fa fa-chevron-up"></i>
+			<i class="fa fa-chevron-circle-up"></i>
+		</div>
 		<header>
 			<h1> Travis Czerw </h1>
-			<div>
+		<!-- 	<div>
 				<a id ="twit" href="https://twitter.com/TRexCzerw"> <i class="fa fa-twitter-square"></i> </a>
 				<a id="tumb" href="https://www.tumblr.com/blog/donutcoder"> <i class="fa fa-tumblr-square"></i> </a>
 				<a id="git" href="https://github.com/Trav84"> <i class="fa fa-github-square"></i> </a>
 				<a id="link" href="www.linkedin.com/pub/travis-czerw/9a/b13/382/en" <i class="fa fa-linkedin-square"></i> </a>
-			</div>
+			</div> -->
 
 			<div class="contact-details">
 				<div>
@@ -75,13 +79,15 @@
 		<section class="skills">
 			<h1> Skills </h1>
 			<h2> Stuff I Know</h2>
-			<h3 class="skill-bar fund"> The Fundamentals </h3>
-			<h3 id="libs" class="skill-bar"> Libraries </h3>
-			<h3 id="frameworks" class="skill-bar"> Frameworks </h3>
-			<h3 id="tools" class="skill-bar last"> Tools </h3>
-			<div class="icon JS"></div>
-			<div class="icon HTML"></div>
-			<div class="icon CSS"></div>
+			<div class="skill-bar fund"> The Fundamentals </div>
+			<div id="libs" class="skill-bar"> Libraries </div>
+			<div id="frameworks" class="skill-bar"> Frameworks </div>
+			<div id="tools" class="skill-bar last"> Tools </div>
+			<div class="closed-skill-box"> 
+				<div class="icon JS slideUp"></div>
+				<div class="icon HTML slideUp"></div>
+				<div class="icon CSS slideUp"></div>
+			</div>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -91,6 +97,7 @@
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
 		</section>
+		
 
 		<section class="work">
 			<h1> Latest Work </h1>
@@ -142,8 +149,16 @@
 		</section>
 
 		<footer class="contact">
-			<a href="tel:512-605-8468" <i class="fa fa-phone-square"> (512) 605-8468 </i> </a>
-			<a href="mailto:travis.czerw@gmail.com?subject=" <i class="fa fa-envelope-square"> travis.czerw@gmail.com </i> </a>
+			<div>
+				<a id ="twit" href="https://twitter.com/TRexCzerw"> <i class="fa fa-twitter-square"></i> </a>
+				<a id="tumb" href="https://www.tumblr.com/blog/donutcoder"> <i class="fa fa-tumblr-square"></i> </a>
+				<a id="git" href="https://github.com/Trav84"> <i class="fa fa-github-square"></i> </a>
+				<a id="link" href="www.linkedin.com/pub/travis-czerw/9a/b13/382/en" <i class="fa fa-linkedin-square"></i> </a>
+			</div>
+			<div class="contact-details">
+				<a href="tel:512-605-8468" <i class="fa fa-phone-square"> (512) 605-8468 </i> </a>
+				<a href="mailto:travis.czerw@gmail.com?subject=" <i class="fa fa-envelope-square"> travis.czerw@gmail.com </i> </a>
+			</div>
 		</footer>
 		
 

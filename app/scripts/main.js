@@ -11,6 +11,7 @@ $(document).ready(function() {
 	var tools = $('#tools');
 	var libraries = $('#libs');
 	var frameworks = $('#frameworks');
+	var expandingMenu = $('.closed-skill-box');
 
 	$('#about').click(function() {
 		body.animate({scrollTop: about.offset().top-10});
@@ -29,8 +30,7 @@ $(document).ready(function() {
 	});
 
 	$(fundamentals).click(function() {
-		fundamentals.toggleClass('clickedSet');
-		console.log('click');
+		expandingMenu.toggleClass('expanding-skill-box');
 	});
 
 });
