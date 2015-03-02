@@ -158,8 +158,8 @@ nav {
 		margin:0 auto;
 		width:20%;
 		height: 1em;
-		-webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
-    	transition:width 2s, height 2s, background-color 2s, transform 2s;
+		//-webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    	//transition:width 2s, height 2s, background-color 2s, transform 2s;
 	}
 
 	.expanding-skill-box {
@@ -209,9 +209,76 @@ nav {
 		background-size:contain;
 	}
 
+	.jQuery {
+		background-image: url("../images/jquery-logo.png");
+		width:4em;
+		height:4em;
+		background-repeat: no-repeat;
+		background-size:contain;
+	}
+
+	.Bootstrap {
+		background-image: url("../images/bootstrap2_logo.png");
+		width:4em;
+		height:4em;
+		background-repeat: no-repeat;
+		background-size:contain;
+	}
+
+	.SASS {
+		background-image: url("../images/color-1c4aab2b.png");
+		width:4em;
+		height:4em;
+		background-repeat: no-repeat;
+		background-size:contain;
+	}
+
+	.Angular {
+		background-image: url("../images/angularjs.png");
+		width:4em;
+		height:4em;
+		background-repeat: no-repeat;
+		background-size:contain;
+	}
+
+	.Backbone {
+		background-image: url("../images/backbone.png");
+		width:4em;
+		height:4em;
+		background-repeat: no-repeat;
+		background-size:contain;
+	}
+
+	.Github {
+		background-image: url("../images/Github.png");
+		width:4em;
+		height:4em;
+		background-repeat: no-repeat;
+		background-size:contain;
+	}
+
+	.Bower {
+		background-image: url("../images/bower.png");
+		width:4em;
+		height:4em;
+		background-repeat: no-repeat;
+		background-size:contain;
+	}
+
+	.Gulp {
+		background-image: url("../images/gulp-2x.png");
+		width:4em;
+		height:4em;
+		background-repeat: no-repeat;
+		background-size:contain;
+	}
+
+
+
 	.skill-set {
 		background-color:black;
 	}
+
 }
 
 .work {
@@ -287,61 +354,61 @@ slideUp
 */
 
 
-.slideUp{
-	animation-name: slideUp;
-	-webkit-animation-name: slideUp;	
+// .slideUp{
+// 	animation-name: slideUp;
+// 	-webkit-animation-name: slideUp;	
 
-	animation-duration: 1s;	
-	-webkit-animation-duration: 1s;
+// 	animation-duration: 1s;	
+// 	-webkit-animation-duration: 1s;
 
-	animation-delay: 3s;
-	-webkit-animation-delay: 3s;
+// 	animation-delay: 3s;
+// 	-webkit-animation-delay: 3s;
 
-	animation-timing-function: ease;	
-	-webkit-animation-timing-function: ease;
+// 	animation-timing-function: ease;	
+// 	-webkit-animation-timing-function: ease;
 
-	visibility: visible !important;			
-}
+// 	visibility: visible !important;			
+// }
 
-@keyframes slideUp {
-	0% {
-		transform: translateY(100%);
-	}
-	50%{
-		transform: translateY(-8%);
-	}
-	65%{
-		transform: translateY(4%);
-	}
-	80%{
-		transform: translateY(-4%);
-	}
-	95%{
-		transform: translateY(2%);
-	}			
-	100% {
-		transform: translateY(0%);
-	}	
-}
+// @keyframes slideUp {
+// 	0% {
+// 		transform: translateY(100%);
+// 	}
+// 	50%{
+// 		transform: translateY(-8%);
+// 	}
+// 	65%{
+// 		transform: translateY(4%);
+// 	}
+// 	80%{
+// 		transform: translateY(-4%);
+// 	}
+// 	95%{
+// 		transform: translateY(2%);
+// 	}			
+// 	100% {
+// 		transform: translateY(0%);
+// 	}	
+// }
 
-@-webkit-keyframes slideUp {
-	0% {
-		-webkit-transform: translateY(100%);
-	}
-	50%{
-		-webkit-transform: translateY(-8%);
-	}
-	65%{
-		-webkit-transform: translateY(4%);
-	}
-	80%{
-		-webkit-transform: translateY(-4%);
-	}
-	95%{
-		-webkit-transform: translateY(2%);
-	}			
-	100% {
-		-webkit-transform: translateY(0%);
-	}	
-}
+// @-webkit-keyframes slideUp {
+// 	0% {
+// 		-webkit-transform: translateY(100%);
+// 	}
+// 	50%{
+// 		-webkit-transform: translateY(-8%);
+// 	}
+// 	65%{
+// 		-webkit-transform: translateY(4%);
+// 	}
+// 	80%{
+// 		-webkit-transform: translateY(-4%);
+// 	}
+// 	95%{
+// 		-webkit-transform: translateY(2%);
+// 	}			
+// 	100% {
+// 		-webkit-transform: translateY(0%);
+// 	}	
+// }
 

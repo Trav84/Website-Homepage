@@ -32,5 +32,4 @@ $(document).ready(function() {
 	$(fundamentals).click(function() {
 		expandingMenu.toggleClass('expanding-skill-box');
 	});
-
 });
